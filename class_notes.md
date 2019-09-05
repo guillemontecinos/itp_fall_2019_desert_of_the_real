@@ -1,4 +1,6 @@
 # Desert of the Real Notes
+*[Syllabus](https://github.com/igaln/DesertOfTheReal)*
+
 ## Class 1
 * Second Life
 * by midterm will pitch a VR project
@@ -16,7 +18,6 @@
 * Edge computing
 * [Social VR Examples](https://www.youtube.com/user/EVENTLabBarcelona/videos)
 
-* [Syllabus](https://github.com/igaln/DesertOfTheReal)
 
 * Recommended Unity V: 2018.3.14
 
