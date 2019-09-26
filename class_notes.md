@@ -36,7 +36,7 @@
 * Rigidbody adds physics to the gameobject. it adds gravity unless kinematics is desabled
 * Collider adds spatial presence to the element
 
-# Class 3: Transform
+## Class 3: Transform
 * 30 hrs VRChat
 * `Vector3` for 3D and `Vector2` for 2D
 * You can decalre a vector3 to start with certain direction
@@ -52,7 +52,18 @@ Start(){
 * GameObject have Transform -> (Position, Rotation, Scale)
 * Asset Stoer: cmd + 9
 * Collision and triggers
-* When making a collision 1 of the bodys has to have physics
+* When making a collision 1 of the bodys has to have physics and one of them has to be the trigger
 * `Collider.OnTriggerEnter()` to detect collision
 * [VR Template Assignment](https://docs.google.com/document/d/1vV7A1Zz-pEoObyHuzCjF37o9z5xA-rVIphS__lY2IMk/edit?ts=5d815252#)
-* 
+
+## Class 4
+* `FindObjectOfType` returns the first active object of typet
+* A Class name is a Type
+* Collections of specific types can be build with `FindObjectOfType`:
+ `Bullet[] bullets = FindObjectsOfType<Bullet>();`
+* Feedback on VR project:
+    * How to create an environment that creates the desire of transmuting in other
+    * Empathy process
+    * Virtual embodyment
+    * Gradual transition
+    * Metpamorphosis - Kafka
