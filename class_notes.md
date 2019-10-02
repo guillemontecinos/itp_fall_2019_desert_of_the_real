@@ -67,3 +67,27 @@ Start(){
     * Virtual embodyment
     * Gradual transition
     * Metpamorphosis - Kafka
+* Feedback Sarah
+    * Think on the conversation (?)
+    * same persons can have different experiences
+    * design whole UX narrative
+    * Both experience from human to non-human but mapping the other's movement
+    * Figure out there is another person
+    * Add time variable to create the narrative arch
+    * Human rigging with final (something)
+    * Process
+        1. prototype with white box to check how the narrative's flow works
+        2. include assets
+    * Look for VR narrative social experiences
+    * Talk to Carrie and Ellen
+    * [Be another Lab](http://beanotherlab.org/home/work/tmtba/body-swap/)
+    * [Half + half](https://uploadvr.com/half-half-multiplayer-vr/)
+    * [Animate](youtube.com/watch?v=MuUUgxsZ9tk) on [Quill](https://quill.fb.com/)
+
+## Class 5
+* Use of Unity Events `UnityEngine.Events`
+* UnityEvents.Invoke() sends a message
+* When using `Serialized` data can be sent as serial messages (events) through the inspector bay attaching classes that receive it
+* When sending, the event is sent using Invoke
+* When receiving, there has to be a method in the class that receives the parameter sent
+* `FindObjectOfType<Type>()`
