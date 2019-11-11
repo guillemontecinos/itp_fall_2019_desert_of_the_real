@@ -91,3 +91,33 @@ Start(){
 * When sending, the event is sent using Invoke
 * When receiving, there has to be a method in the class that receives the parameter sent
 * `FindObjectOfType<Type>()`
+
+## Class 6: UX / Performance
+* [Practical VR - A design cheat sheet](https://virtualrealitypop.com/practical-vr-ce80427e8e9d)
+* [UX VR Design, Jessica Brillhart](https://www.youtube.com/watch?v=fgzgC7UOOSo)
+* 60 fps or more
+* Sarah's Feedback
+    * things to interact with before the main interaction, like touching other objects durint the wallway during onboarding
+    * sometimes is better to just tell people what to do
+    * not mess up with the cameras
+    * interaction by zones
+    * hand tracking integrated in quest?
+    * feedback when connecting is very importatn in order to tell players they are doing correct
+    * value all cases: i'm looking at the glass and the axoltl, no. what ahppens?
+    * prove concept with white boxes in the headset
+    * would be interest to know what happen if characters switch and then stay like that. what motivates the user to switch?
+    * build alternative interactions to keep the player in the experience.
+    * build game flow chart.
+
+## Class 8 
+### Inverse kinematics
+* To predict how the body elements move
+* asset store -> Final IK
+* create bridges between IK and the character
+### Networking
+Cliente <-> Server
+* spawning means the server tells all clients to instantiate an object
+* new netwotking structure happens in the low level
+* `[SyncVar]` variable type is used to sync different vars within the network
+* `[Command]` then `Cmd<functionname>` syncs a function
+* Local Authority sets that in every machine the Local Player is the only who can move/control the scene in their machine
